@@ -1,0 +1,30 @@
+﻿.Freezing::after {
+	content: "❄️";
+}
+.Bracing::after{
+	content: "☃️";
+}
+.Chilly::after {
+	content: "🥶";
+}
+.Cool::after{
+	content: "🧥";
+}
+.Mild::after {
+	content: "⛅";
+}
+.Warm::after {
+	content: "☀️";
+}
+.Balmy::after {
+	content: "🌴";
+}
+.Hot::after{
+	content: "🌡️";
+}
+.Sweltering::after{
+	content: "🥵";
+}
+.Scorching::after {
+	content: "🔥";
+}

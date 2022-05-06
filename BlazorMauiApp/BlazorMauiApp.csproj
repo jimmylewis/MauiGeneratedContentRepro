@@ -52,4 +52,11 @@
 		<MauiAsset Include="Resources\Raw\**" LogicalName="%(RecursiveDir)%(Filename)%(Extension)" />
 	</ItemGroup>
 
+	<Target Name="GenerateTheMagicalContentFiles"
+			BeforeTargets="Build">
+		<Copy SourceFiles="..\GeneratedContentFiles\forecast.css" DestinationFolder="wwwroot\css" />
+		
+		<!-- what do I do here to include as an asset on a clean build? -->
+	</Target>
+
 </Project>
